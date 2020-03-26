@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63B3D90A242CA98B0072C99A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D909242CA98B0072C99A /* AppDelegate.swift */; };
+		63B3D90C242CA98B0072C99A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D90B242CA98B0072C99A /* SceneDelegate.swift */; };
+		63B3D90E242CA98B0072C99A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D90D242CA98B0072C99A /* ViewController.swift */; };
+		63B3D911242CA98B0072C99A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D90F242CA98B0072C99A /* Main.storyboard */; };
+		63B3D914242CA98B0072C99A /* lomo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D912242CA98B0072C99A /* lomo.xcdatamodeld */; };
+		63B3D916242CA98C0072C99A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D915242CA98C0072C99A /* Assets.xcassets */; };
+		63B3D919242CA98C0072C99A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D917242CA98C0072C99A /* LaunchScreen.storyboard */; };
+		63B3D924242CA98C0072C99A /* lomoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D923242CA98C0072C99A /* lomoTests.swift */; };
+		63B3D92F242CA98C0072C99A /* lomoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B3D92E242CA98C0072C99A /* lomoUITests.swift */; };
+		63B3D941242CB8F20072C99A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B3D940242CB8F20072C99A /* logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63B3D920242CA98C0072C99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B3D8FE242CA98B0072C99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3D905242CA98B0072C99A;
+			remoteInfo = lomo;
+		};
+		63B3D92B242CA98C0072C99A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63B3D8FE242CA98B0072C99A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63B3D905242CA98B0072C99A;
+			remoteInfo = lomo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63B3D906242CA98B0072C99A /* lomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D909242CA98B0072C99A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63B3D90B242CA98B0072C99A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63B3D90D242CA98B0072C99A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63B3D910242CA98B0072C99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63B3D913242CA98B0072C99A /* lomo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lomo.xcdatamodel; sourceTree = "<group>"; };
+		63B3D915242CA98C0072C99A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63B3D918242CA98C0072C99A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63B3D91A242CA98C0072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D91F242CA98C0072C99A /* lomoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lomoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D923242CA98C0072C99A /* lomoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lomoTests.swift; sourceTree = "<group>"; };
+		63B3D925242CA98C0072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D92A242CA98C0072C99A /* lomoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lomoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B3D92E242CA98C0072C99A /* lomoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lomoUITests.swift; sourceTree = "<group>"; };
+		63B3D930242CA98C0072C99A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63B3D940242CB8F20072C99A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63B3D903242CA98B0072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D91C242CA98C0072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D927242CA98C0072C99A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63B3D8FD242CA98B0072C99A = {
+			isa = PBXGroup;
+			children = (
+				63B3D908242CA98B0072C99A /* lomo */,
+				63B3D922242CA98C0072C99A /* lomoTests */,
+				63B3D92D242CA98C0072C99A /* lomoUITests */,
+				63B3D907242CA98B0072C99A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63B3D907242CA98B0072C99A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D906242CA98B0072C99A /* lomo.app */,
+				63B3D91F242CA98C0072C99A /* lomoTests.xctest */,
+				63B3D92A242CA98C0072C99A /* lomoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B3D908242CA98B0072C99A /* lomo */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D909242CA98B0072C99A /* AppDelegate.swift */,
+				63B3D90B242CA98B0072C99A /* SceneDelegate.swift */,
+				63B3D90D242CA98B0072C99A /* ViewController.swift */,
+				63B3D90F242CA98B0072C99A /* Main.storyboard */,
+				63B3D915242CA98C0072C99A /* Assets.xcassets */,
+				63B3D917242CA98C0072C99A /* LaunchScreen.storyboard */,
+				63B3D91A242CA98C0072C99A /* Info.plist */,
+				63B3D940242CB8F20072C99A /* logo.png */,
+				63B3D912242CA98B0072C99A /* lomo.xcdatamodeld */,
+			);
+			path = lomo;
+			sourceTree = "<group>";
+		};
+		63B3D922242CA98C0072C99A /* lomoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D923242CA98C0072C99A /* lomoTests.swift */,
+				63B3D925242CA98C0072C99A /* Info.plist */,
+			);
+			path = lomoTests;
+			sourceTree = "<group>";
+		};
+		63B3D92D242CA98C0072C99A /* lomoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63B3D92E242CA98C0072C99A /* lomoUITests.swift */,
+				63B3D930242CA98C0072C99A /* Info.plist */,
+			);
+			path = lomoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63B3D905242CA98B0072C99A /* lomo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D933242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomo" */;
+			buildPhases = (
+				63B3D902242CA98B0072C99A /* Sources */,
+				63B3D903242CA98B0072C99A /* Frameworks */,
+				63B3D904242CA98B0072C99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lomo;
+			productName = lomo;
+			productReference = 63B3D906242CA98B0072C99A /* lomo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63B3D91E242CA98C0072C99A /* lomoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D936242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomoTests" */;
+			buildPhases = (
+				63B3D91B242CA98C0072C99A /* Sources */,
+				63B3D91C242CA98C0072C99A /* Frameworks */,
+				63B3D91D242CA98C0072C99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B3D921242CA98C0072C99A /* PBXTargetDependency */,
+			);
+			name = lomoTests;
+			productName = lomoTests;
+			productReference = 63B3D91F242CA98C0072C99A /* lomoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63B3D929242CA98C0072C99A /* lomoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B3D939242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomoUITests" */;
+			buildPhases = (
+				63B3D926242CA98C0072C99A /* Sources */,
+				63B3D927242CA98C0072C99A /* Frameworks */,
+				63B3D928242CA98C0072C99A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63B3D92C242CA98C0072C99A /* PBXTargetDependency */,
+			);
+			name = lomoUITests;
+			productName = lomoUITests;
+			productReference = 63B3D92A242CA98C0072C99A /* lomoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63B3D8FE242CA98B0072C99A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "turing-junkie";
+				TargetAttributes = {
+					63B3D905242CA98B0072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					63B3D91E242CA98C0072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 63B3D905242CA98B0072C99A;
+					};
+					63B3D929242CA98C0072C99A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 63B3D905242CA98B0072C99A;
+					};
+				};
+			};
+			buildConfigurationList = 63B3D901242CA98B0072C99A /* Build configuration list for PBXProject "lomo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63B3D8FD242CA98B0072C99A;
+			productRefGroup = 63B3D907242CA98B0072C99A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63B3D905242CA98B0072C99A /* lomo */,
+				63B3D91E242CA98C0072C99A /* lomoTests */,
+				63B3D929242CA98C0072C99A /* lomoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63B3D904242CA98B0072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D941242CB8F20072C99A /* logo.png in Resources */,
+				63B3D919242CA98C0072C99A /* LaunchScreen.storyboard in Resources */,
+				63B3D916242CA98C0072C99A /* Assets.xcassets in Resources */,
+				63B3D911242CA98B0072C99A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D91D242CA98C0072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D928242CA98C0072C99A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63B3D902242CA98B0072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D914242CA98B0072C99A /* lomo.xcdatamodeld in Sources */,
+				63B3D90E242CA98B0072C99A /* ViewController.swift in Sources */,
+				63B3D90A242CA98B0072C99A /* AppDelegate.swift in Sources */,
+				63B3D90C242CA98B0072C99A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D91B242CA98C0072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D924242CA98C0072C99A /* lomoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63B3D926242CA98C0072C99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B3D92F242CA98C0072C99A /* lomoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63B3D921242CA98C0072C99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3D905242CA98B0072C99A /* lomo */;
+			targetProxy = 63B3D920242CA98C0072C99A /* PBXContainerItemProxy */;
+		};
+		63B3D92C242CA98C0072C99A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63B3D905242CA98B0072C99A /* lomo */;
+			targetProxy = 63B3D92B242CA98C0072C99A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63B3D90F242CA98B0072C99A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B3D910242CA98B0072C99A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63B3D917242CA98C0072C99A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63B3D918242CA98C0072C99A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63B3D931242CA98C0072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63B3D932242CA98C0072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63B3D934242CA98C0072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63B3D935242CA98C0072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63B3D937242CA98C0072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lomo.app/lomo";
+			};
+			name = Debug;
+		};
+		63B3D938242CA98C0072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lomo.app/lomo";
+			};
+			name = Release;
+		};
+		63B3D93A242CA98C0072C99A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lomo;
+			};
+			name = Debug;
+		};
+		63B3D93B242CA98C0072C99A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E48RJAEVC8;
+				INFOPLIST_FILE = lomoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "turing-junkie.lomoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lomo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63B3D901242CA98B0072C99A /* Build configuration list for PBXProject "lomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D931242CA98C0072C99A /* Debug */,
+				63B3D932242CA98C0072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D933242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D934242CA98C0072C99A /* Debug */,
+				63B3D935242CA98C0072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D936242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D937242CA98C0072C99A /* Debug */,
+				63B3D938242CA98C0072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B3D939242CA98C0072C99A /* Build configuration list for PBXNativeTarget "lomoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B3D93A242CA98C0072C99A /* Debug */,
+				63B3D93B242CA98C0072C99A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63B3D912242CA98B0072C99A /* lomo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63B3D913242CA98B0072C99A /* lomo.xcdatamodel */,
+			);
+			currentVersion = 63B3D913242CA98B0072C99A /* lomo.xcdatamodel */;
+			path = lomo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63B3D8FE242CA98B0072C99A /* Project object */;
+}
